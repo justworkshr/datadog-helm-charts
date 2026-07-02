@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: datadog-helm-charts
+  description: "Forked Datadog official Helm charts used for deploying Datadog products at Justworks."
+  annotations:
+    github.com/project-slug: justworkshr/datadog-helm-charts
+  tags:
+    []
+spec:
+  lifecycle: production
+  type: service
+  owner: unassigned
